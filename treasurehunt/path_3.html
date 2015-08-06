@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Treasure hunt</title>
+   <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="assets/fa/css/font-awesome.min.css">
+   <style>
+    body{
+      padding: 50px;
+    }
+    header{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    footer{
+      margin-top: 30px;
+    }
+    .path {
+      line-height: 250px;
+      font-size: 30px;
+      vertical-align: middle;
+      border: 1px solid #CEE4B3;
+      padding: 20px;
+      text-align: center;
+    }
+    .path:hover{
+      background-color: #B3E4E2;
+    }
+    .text{
+      margin-left: 20px;
+    }
+    .path > img {
+      max-width: 75%;
+      height: 200px;
+    }
+   </style>
+  </head>
+  <body>
+    <header>
+     <h1>Willkommen zur Schatzseite</h1>
+     <h3>3: Du hast eine Truhe gefunden. Gehe weiter.</h3>
+    </header>
+    <div class="container-fluid">
+      <div class="row paths">
+        <div class="col-xs-12 path">
+          <img src="images/treasurechest.jpg">
+        </div>
+      </div>
+      <main class="row paths">
+       <a href="path_2.html" class="col-xs-4 path"><span class="fa fa-search fa-3x"></span><span class="text">T&uuml;r 1</span></a>
+       <a href="nichts.html" class="col-xs-4 path"><span class="fa fa-search fa-3x"></span><span class="text">T&uuml;r 2</span></a>
+       <a href="exit.html" class="col-xs-4 path"><span class="fa fa-search fa-3x"></span><span class="text">T&uuml;r 3</span></a>
+      </main>
+    </div>
+    <footer>
+     <p class="footer">CoderDojo - Aachen, 2015</p>
+    </footer>
+  </body>
+</html>
